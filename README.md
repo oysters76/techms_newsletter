@@ -10,8 +10,8 @@ broadcast summarized reports to subscribed users.
     * As of right now, sentiment analysis and text-summarization are conducted using an LLM. (GPT 3.5/LLAMA)
 3. The Spark job then produces results, writes it to another Kafka stream.
 4. The last Spark job consumes the stream, and broadcasts the data to users via mail.
-    
-![Market Sentiment analysis workflow](https://github.com/oysters76/techms_newsletter/assets/75514064/f7345930-fbb9-46e8-b70d-43833e93fcfe)
+
+![Market Sentiment analysis workflow (1)](https://github.com/oysters76/techms_newsletter/assets/75514064/d7326a44-911a-4ff7-b9eb-abbedf3cf24e)
 
 ## Future Work 
 
