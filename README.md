@@ -18,11 +18,13 @@ broadcast summarized reports to subscribed users.
 1. Add more spark jobs into the pipeline to do further sentiment analysis, and to collect market sentiment statistics.
 2. Update a dashboard frontend (D3 JS/Apache Superset) in real-time with the data collected.
 
-## Technologies used 
+## Dependencies 
 1. PySpark
 2. Apache Kafka
 3. X (Twitter) API
 4. Python3
+5. D3 JS
+6. Apache Superset 
 
 ## Proposed Project Structure 
 ```
